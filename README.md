@@ -2,13 +2,13 @@
 
 *"Transformando conciencias, preservando el planeta"*  
 
-[![Impacto Ambiental](https://img.shields.io/badge/Impacto_Ambiental-ECO%2B%2B-brightgreen?style=for-the-badge)](https://github.com/tu_usuario/ecosmile)
+[![Impacto Ambiental](https://img.shields.io/badge/Impacto_Ambiental-ECO%2B%2B-brightgreen?style=for-the-badge)](https://santiag0jaja.github.io/Ecosmile/)
 [![Únete al Cambio](https://img.shields.io/badge/📲_Únete_al_Cambio-4CAF50?style=for-the-badge)](mailto:santiagodiazeo@gmail.com)
 
 ---
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW1jY2RjZGJ4Z2R6dGJ6YzN6bmRjZ3B1ZGd5bmh1cjR0dWZ0M2VtYzF5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HU7ZeB1pInb8hfy/giphy.gif" alt="Ecosmile en acción" width="600" style="border-radius: 12px; border: 1px solid #e0f7e0;"/>
+  <img src="https://media.giphy.com/media/gjm366kOLy5GzxnNtu/giphy.gif?cid=790b7611xuj124mazwhpzgsuv8qrozcoqqqgarhdtrccygrf&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Ecosmile en acción" width="600" style="border-radius: 12px; border: 1px solid #e0f7e0;"/>
 </div>
 
 ---
