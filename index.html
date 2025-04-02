@@ -3,54 +3,352 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecosmile</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Ecosmile - Blanqueador Dental Ecológico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-
-<header>
-    <img src="assets/img/logo.jpg" alt="Logo Ecosmile">
-    <h1>Ecosmile</h1>
-</header>
-
-<main>
-    <section>
-        <h2>Próximamente Disponible</h2>
-    </section>
-
-    <section>
-        <h2>Propuesta de Valor</h2>
-        <p>Ofrecemos un blanqueador dental ecológico y accesible, elaborado con ingredientes naturales como fresa, aceite de coco, cúrcuma y bicarbonato de sodio, que blanquea los dientes de manera efectiva. Además, brindamos asesorías y tips sobre el cuidado bucal y el uso del producto. Nos diferenciamos por ofrecer una alternativa innovadora libre de flúor, amigable con la salud.</p>
-    </section>
-
-    <section>
-        <h2>¿Quiénes Somos?</h2>
-        <p>Somos un equipo de emprendedores apasionados por la salud dental y el medio ambiente. Nuestro objetivo es proporcionar soluciones efectivas y sostenibles para el cuidado bucal.</p>
-    </section>
-
-    <section class="blog">
-        <h2>Blog</h2>
-        <p>Documentaremos la creación y formulación de nuestra pasta dental aquí. ¡Mantente atento para más actualizaciones!</p>
-    </section>
-
-    <section class="faq">
-        <h2>Preguntas Frecuentes (FAQ)</h2>
-        <p><strong>¿Cómo funciona el blanqueador dental?</strong><br>El blanqueador dental de Ecosmile utiliza ingredientes naturales que ayudan a eliminar manchas y blanquear los dientes.</p>
-        <p><strong>¿Es seguro para todos?</strong><br>Sí, nuestros ingredientes son naturales y están diseñados para ser seguros para el uso diario.</p>
-        <p><strong>¿Contiene fluor?</strong><br>No, estamos totalmente comprometidos con el cuidado de la salud bucal. Nuestro producto esta 100% libre de fluor.</p>
-    </section>
-</main>
-
-<footer>
-    <p>Creadores: Santiago Díaz Echavarría, Janfred Espinoza Torcat, Valeria Graciano Muñoz, Valerie Gaviria Sanchez, Johan Sneyder Querubín Ramírez</p>
-    <p>Ubicación: Medellín, Colombia</p>
-    <div class="social-buttons">
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">Twitter</a>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="tooth"></div>
+            <div class="bubble bubble-1"></div>
+            <div class="bubble bubble-2"></div>
+            <div class="bubble bubble-3"></div>
+        </div>
     </div>
-</footer>
 
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/img/logo.jpg" alt="Logo Ecosmile" class="logo-img">
+                <h1>Ecosmile</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#ingredientes">Ingredientes</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Sonríe con <span>Naturaleza</span></h2>
+                <p class="hero-subtitle">El primer blanqueador dental 100% ecológico y libre de flúor</p>
+                <div class="cta-buttons">
+                    <a href="#contacto" class="btn btn-primary">¡Pruébalo ahora!</a>
+                    <a href="#beneficios" class="btn btn-secondary">Conoce más</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Ecosmile Product" class="product-img">
+                <div class="floating-ingredients">
+                    <div class="ingredient strawberry" data-tooltip="Fresas secas - Ácido málico para blanqueamiento natural">
+                        <img src="https://pngimg.com/uploads/strawberry/strawberry_PNG89.png" alt="Fresa">
+                    </div>
+                    <div class="ingredient coconut" data-tooltip="Aceite de coco - Propiedades antimicrobianas">
+                        <img src="https://png.pngtree.com/png-clipart/20231001/original/pngtree-3d-rendering-coconut-isolated-png-image_13027686.png" alt="Aceite de coco">
+                    </div>
+                    <div class="ingredient mint" data-tooltip="Hojas de menta - Refresca el aliento">
+                        <img src="https://static.vecteezy.com/system/resources/previews/023/628/994/non_2x/peppermint-green-leaf-in-png.png" alt="Menta">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Beneficios de <span>Ecosmile</span></h2>
+            <p class="section-subtitle">Una alternativa saludable y sostenible para tu sonrisa</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card" data-aos="fade-up">
+                    <div class="benefit-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>100% Natural</h3>
+                    <p>Formulado exclusivamente con ingredientes orgánicos, sin químicos agresivos ni flúor.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Ecológico</h3>
+                    <p>Empaque 100% reciclable y proceso de producción sostenible para cuidar el planeta.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-icon">
+                        <i class="fas fa-teeth"></i>
+                    </div>
+                    <h3>Protege el esmalte</h3>
+                    <p>Ingredientes suaves que blanquean sin dañar el esmalte dental ni causar sensibilidad.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bacteria"></i>
+                    </div>
+                    <h3>Antibacteriano</h3>
+                    <p>Combate las bacterias responsables de la placa y el mal aliento de forma natural.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>Sonrisa brillante</h3>
+                    <p>Elimina manchas superficiales y devuelve el brillo natural a tus dientes.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Salud bucal</h3>
+                    <p>Cuida tus encías y mejora tu salud bucal integral mientras blanquea tus dientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section id="ingredientes" class="ingredients">
+        <div class="container">
+            <h2 class="section-title">Ingredientes <span>Naturales</span></h2>
+            <p class="section-subtitle">La potencia de la naturaleza para tu sonrisa</p>
+            
+            <div class="ingredients-slider">
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <div class="ingredient-slide">
+                            <div class="ingredient-image">
+                                <img src="https://pngimg.com/uploads/strawberry/strawberry_PNG89.png" alt="Fresas secas">
+                            </div>
+                            <div class="ingredient-info">
+                                <h3>Fresas secas</h3>
+                                <p>Contienen ácido málico que ayuda a eliminar manchas superficiales y blanquear los dientes de forma suave, manteniendo un equilibrio natural en la salud bucal.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="ingredient-slide">
+                            <div class="ingredient-image">
+                                <img src="https://www.pngall.com/wp-content/uploads/8/Sodium-Bicarbonate-PNG-Download-Image.png" alt="Bicarbonato de sodio">
+                            </div>
+                            <div class="ingredient-info">
+                                <h3>Bicarbonato de sodio</h3>
+                                <p>Propiedades abrasivas suaves que eliminan placa y manchas, contribuyendo al blanqueo dental sin dañar el esmalte. Neutraliza ácidos para un pH equilibrado.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="ingredient-slide">
+                            <div class="ingredient-image">
+                                <img src="https://png.pngtree.com/png-clipart/20231001/original/pngtree-3d-rendering-coconut-isolated-png-image_13027686.png" alt="Aceite de coco">
+                            </div>
+                            <div class="ingredient-info">
+                                <h3>Aceite de coco</h3>
+                                <p>Propiedades antimicrobianas y antiinflamatorias que reducen bacterias y mantienen la salud de las encías, hidratando y cuidando la boca de forma natural.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="ingredient-slide">
+                            <div class="ingredient-image">
+                                <img src="https://static.vecteezy.com/system/resources/previews/023/628/994/non_2x/peppermint-green-leaf-in-png.png" alt="Hojas de menta">
+                            </div>
+                            <div class="ingredient-info">
+                                <h3>Hojas de menta fresca</h3>
+                                <p>Refrescan el aliento y tienen propiedades antimicrobianas que combaten bacterias y calman encías irritadas, proporcionando frescura y bienestar.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="ingredient-slide">
+                            <div class="ingredient-image">
+                                <img src="https://www.pngall.com/wp-content/uploads/8/Sodium-Bicarbonate-PNG-Download-Image.png" alt="Cúrcuma">
+                            </div>
+                            <div class="ingredient-info">
+                                <h3>Cúrcuma en polvo</h3>
+                                <p>Propiedades antiinflamatorias y antibacterianas que reducen inflamación de encías y combaten bacterias responsables de la placa, ofreciendo blanqueo suave.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots"></div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="equipo" class="team">
+        <div class="container">
+            <h2 class="section-title">Nuestro <span>Equipo</span></h2>
+            <p class="section-subtitle">Los jóvenes innovadores detrás de Ecosmile</p>
+            
+            <div class="team-grid">
+                <div class="team-card" data-aos="zoom-in">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Janfred Jhonas Espinoza Torcat">
+                    </div>
+                    <div class="team-info">
+                        <h3>Janfred Jhonas Espinoza Torcat</h3>
+                        <p>Co-fundador & Investigador</p>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Santiago Diaz Echavarria">
+                    </div>
+                    <div class="team-info">
+                        <h3>Santiago Diaz Echavarria</h3>
+                        <p>Co-fundador & Desarrollador</p>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Valeria Graciano Muñoz">
+                    </div>
+                    <div class="team-info">
+                        <h3>Valeria Graciano Muñoz</h3>
+                        <p>Co-fundadora & Marketing</p>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1467&q=80" alt="Johan Sneyder Querubín Ramírez">
+                    </div>
+                    <div class="team-info">
+                        <h3>Johan Sneyder Querubín Ramírez</h3>
+                        <p>Co-fundador & Diseñador</p>
+                    </div>
+                </div>
+
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1467&q=80" alt="Johan Sneyder Querubín Ramírez">
+                    </div>
+                    <div class="team-info">
+                        <h3>Valerie Gaviria Sanchez</h3>
+                        <p>Co-fundador & Investigadora</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="institution">
+                <p>Proyecto desarrollado por estudiantes de <strong>11°1</strong> de la</p>
+                <h4>Institución Educativa San Roberto Belarmino</h4>
+                <p>Área: <strong>Media técnica - Monitoreo ambiental</strong></p>
+                <p>Docente: <strong>Luis Ángel Chinchia Hinojoza</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">¿Listo para una sonrisa <span>más blanca</span> y <span>saludable</span>?</h2>
+                <p class="section-subtitle">Contáctanos para más información o para adquirir tu Ecosmile</p>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Teléfono">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tu mensaje" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+            <div class="contact-image">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Producto Ecosmile" class="product-img">
+                <div class="floating-bubbles">
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <h1>Ecosmile</h1>
+                    </div>
+                    <p>Blanqueador dental ecológico a base de productos orgánicos</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#ingredientes">Ingredientes</a></li>
+                        <li><a href="#equipo">Equipo</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@ecosmile.com</li>
+                        <li><i class="fas fa-phone"></i> +57 313 5822423</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Institución Educativa San Roberto Belarmino</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ecosmile. Todos los derechos reservados.</p>
+                <p>Proyecto desarrollado en el programa de articulación SENA con la educación media - SENA Regional Antioquia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#inicio" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
