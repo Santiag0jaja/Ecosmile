@@ -37,15 +37,3 @@ Desarrollar **soluciones verdes accesibles** que combatan problemas ambientales 
 
 ---
 
-## 🚀 **Roadmap 2024**  
-
-```mermaid
-gantt
-    title Fases de Desarrollo
-    dateFormat  YYYY-MM-DD
-    section Prototipo
-    Investigación       :done,    des1, 2024-01-01, 60d
-    Diseño MVP          :active,  des2, 2024-03-01, 45d
-    section Lanzamiento
-    Pruebas comunitarias :         des3, 2024-04-15, 30d
-    Implementación final :         des4, 2024-06-01, 60d
